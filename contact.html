@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul class="nav--list">
+          <li class="active">
+            <img
+              src="Spotify_Primary_Logo_RGB_Green.png"
+              alt="Logo"
+              id="logo"
+            />
+          </li>
+          <li class="item"><a href="index.html">Home</a></li>
+          <li class="item"><a href="artists.html">Artists</a></li>
+          <li class="item"><a href="albums.html">Albums</a></li>
+          <li class="item"><a href="library.html">Your Library</a></li>
+          <li class="item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="contact-section">
+      <div class="contact-intro">
+        <h2 class="contact-title">Get in Touch</h2>
+        <p class="contact-description">
+          Fill out the form below and we'll get back to you as soon as possible.
+        </p>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group-container">
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input
+              id="name"
+              name="name"
+              class="form-input"
+              placeholder="Your name"
+              type="text"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="Your email"
+              type="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone</label>
+            <input
+              id="phone"
+              name="phone"
+              class="form-input"
+              placeholder="+1 (234) 56789"
+              type="text"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-textarea"
+              id="message"
+              name="message"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+        </div>
+        <button class="form-submit" type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+</html>
